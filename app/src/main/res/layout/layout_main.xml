@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/record_and_play"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recordPath"/>
+
+                <TextView
+                    android:id="@+id/defaultRecordPath"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/defaultRecordPath"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recordMode"/>
+
+                <Spinner
+                    android:id="@+id/recordMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/recordMode"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:id="@+id/recordingTime"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:hint="00:00/00:00"/>
+
+                <SeekBar
+                    android:id="@+id/audio_seekBar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <Button
+                    android:id="@+id/startRecordButton"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/startRecord"/>
+
+                <Button
+                    android:id="@+id/stopRecordButton"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/stopRecord"/>
+
+                <Button
+                    android:id="@+id/playRecordButton"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/playRecord"/>
+
+                <Button
+                    android:id="@+id/stopPlayRecordButton"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/stopPlayRecord"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/audiokit_interface"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="@string/audiokit_basic_interface"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <Button
+                        android:id="@+id/init"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/init"/>
+
+                    <Button
+                        android:id="@+id/getFeaturesButton"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/getFeatures"/>
+
+                    <Button
+                        android:id="@+id/isFeatureSupportButton"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/isFeatureSupport"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="@string/audiokit_karaoke_interface"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:baselineAligned="false">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/audiokit_karaoke_basic_interface"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+                        <Button
+                            android:id="@+id/initKaraoke"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/initKaraoke"/>
+
+                        <Button
+                            android:id="@+id/isKaraokeSupportButton"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/isKaraokeSupport"/>
+
+                        <Button
+                            android:id="@+id/enableKaraokeButton"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/enableKaraoke"/>
+
+                        <Button
+                            android:id="@+id/disableKaraokeButton"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/closeKaraoke"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:baselineAligned="false">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/audiokit_karaoke_eq_interface"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+                        <Button
+                            android:id="@+id/setDefaultEqualizer"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/defaultEqualizerMode"/>
+
+                        <Button
+                            android:id="@+id/setFullEqualizer"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/fullEqualizerMode"/>
+
+                        <Button
+                            android:id="@+id/setBrightEqualizer"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/brightEqualizerMode"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:baselineAligned="false">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/audiokit_karaoke_reverb_interface"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+                        <Button
+                            android:id="@+id/setDefaultReverberationMode"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/defaultReverberation"/>
+
+                        <Button
+                            android:id="@+id/setKtvReverberationMode"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/ktvReverberation"/>
+
+                        <Button
+                            android:id="@+id/setTheaterReverberationMode"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/theaterReverberation"/>
+
+                        <Button
+                            android:id="@+id/setConcertReverberationMode"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="@string/concertReverberation"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:baselineAligned="false">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/audiokit_karaoke_volume_interface"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:layout_weight="2"
+                            android:baselineAligned="false">
+
+                            <Button
+                                android:id="@+id/settingVolume"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:text="@string/settingVolume"/>
+
+                            <EditText
+                                android:id="@+id/setKaraokeAudioVolume"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:inputType="number"
+                                android:textSize="15sp"
+                                android:hint="@string/setVolume"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:layout_weight="1"
+                            android:baselineAligned="false">
+
+                            <Button
+                                android:id="@+id/getKaraokeLatencyButton"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:text="@string/getLatency"/>
+
+                            <TextView
+                                android:id="@+id/KaraokeLatency"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:hint="20" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:textSize="15sp"
+            android:paddingStart="@dimen/dimen_24dip"
+            android:paddingEnd="@dimen/dimen_24dip"
+            android:hint="info text"/>
+    </LinearLayout>
+
+
+</ScrollView>

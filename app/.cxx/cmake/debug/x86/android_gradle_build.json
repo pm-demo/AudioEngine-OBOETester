@@ -1,0 +1,599 @@
+{
+  "stringTable": {
+    "0": "C:/Users/purni/Desktop/Documents/AndroidRelated/FutureweiRelated/New-AudioEngine-OBOE/oboe/apps/OboeTester/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android23 --gcc-toolchain=C:/Users/purni/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/purni/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DOBOE_ENABLE_LOGGING=1 -Doboetester_EXPORTS -I../../../../../../../include -I../../../../../../../src -IC:/Users/purni/Desktop/Documents/AndroidRelated/FutureweiRelated/New-AudioEngine-OBOE/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -Werror -Wall -std=c++14 -DOBOE_NO_INCLUDE_AAUDIO -fvisibility=hidden -O0 -fno-limit-debug-info -O2 -fPIC",
+    "2": "--target=i686-none-linux-android23 --gcc-toolchain=C:/Users/purni/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/purni/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DOBOE_ENABLE_LOGGING=1 -Doboetester_EXPORTS -I../../../../../../../include -I../../../../../../../src -IC:/Users/purni/Desktop/Documents/AndroidRelated/FutureweiRelated/New-AudioEngine-OBOE/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "3": "--target=i686-none-linux-android23 --gcc-toolchain=C:/Users/purni/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/purni/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DOBOE_ENABLE_LOGGING=1 -I../../../../../../../src -I../../../../../../../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -Werror -Wall -std=c++14 -DOBOE_NO_INCLUDE_AAUDIO -fvisibility=hidden -O0 -fno-limit-debug-info -O2 -fPIC -std=c++17 -Wall -Wextra-semi -Wshadow -Wshadow-field -Ofast -Werror",
+    "4": "--target=i686-none-linux-android23 --gcc-toolchain=C:/Users/purni/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/purni/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_audio_jni_EXPORTS -I../../../../src/main/cpp/hwaudioeg/includes -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c99 -Wall -O0 -fno-limit-debug-info -fPIC",
+    "5": "null"
+  },
+  "buildFiles": [
+    "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\hwaudioeg\\CMakeLists.txt",
+    "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\CMakeLists.txt",
+    "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "oboe-Debug-x86": {
+      "buildCommand": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\debug\\x86\" oboe",
+      "buildType": "debug",
+      "toolchain": "3618018422",
+      "abi": "x86",
+      "artifactName": "oboe",
+      "files": [
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\aaudio\\AAudioLoader.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\aaudio\\AudioStreamAAudio.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\AudioSourceCaller.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\AudioStream.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\AudioStreamBuilder.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\DataConversionFlowGraph.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\FilterAudioStream.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\FixedBlockAdapter.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\FixedBlockReader.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\FixedBlockWriter.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\LatencyTuner.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\SourceFloatCaller.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\SourceI16Caller.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\SourceI24Caller.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\SourceI32Caller.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\Utilities.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\QuirksManager.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\fifo\\FifoBuffer.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\fifo\\FifoController.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\fifo\\FifoControllerBase.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\fifo\\FifoControllerIndirect.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\FlowGraphNode.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\ChannelCountConverter.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\ClipToRange.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\ManyToMultiConverter.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\MonoToMultiConverter.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\MultiToMonoConverter.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\RampLinear.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SampleRateConverter.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SinkFloat.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SinkI16.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SinkI24.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SinkI32.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SourceFloat.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SourceI16.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SourceI24.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\SourceI32.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\resampler\\IntegerRatio.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\resampler\\LinearResampler.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\resampler\\MultiChannelResampler.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\resampler\\PolyphaseResampler.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\resampler\\PolyphaseResamplerMono.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\resampler\\PolyphaseResamplerStereo.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\resampler\\SincResampler.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\flowgraph\\resampler\\SincResamplerStereo.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\opensles\\AudioInputStreamOpenSLES.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\opensles\\AudioOutputStreamOpenSLES.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\opensles\\AudioStreamBuffered.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\opensles\\AudioStreamOpenSLES.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\opensles\\EngineOpenSLES.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\opensles\\OpenSLESUtilities.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\opensles\\OutputMixerOpenSLES.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\StabilizedCallback.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\Trace.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\src\\common\\Version.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\debug\\x86\\oboe-bin\\liboboe.a",
+      "runtimeFiles": []
+    },
+    "native-audio-jni-Debug-x86": {
+      "buildCommand": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\debug\\x86\" native-audio-jni",
+      "buildType": "debug",
+      "toolchain": "3618018422",
+      "abi": "x86",
+      "artifactName": "native-audio-jni",
+      "files": [
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\hwaudioeg\\native-audio-jni.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-audio-jni.so",
+      "runtimeFiles": []
+    },
+    "oboetester-Debug-x86": {
+      "buildCommand": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\debug\\x86\" oboetester",
+      "buildType": "debug",
+      "toolchain": "3618018422",
+      "abi": "x86",
+      "artifactName": "oboetester",
+      "files": [
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\hwaudioeg\\native-audio-jni.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\AudioStreamGateway.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\FormatConverterBox.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\FullDuplexAnalyzer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\FullDuplexEcho.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\FullDuplexStream.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\InputStreamCallbackAnalyzer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\InterpolatingDelayLine.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\NativeAudioContext.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\OboeStreamCallbackProxy.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\OboeTesterStreamCallback.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\PlayRecordingCallback.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\SawPingGenerator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\ExponentialShape.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\ImpulseOscillator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\LinearShape.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\OscillatorBase.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\SawtoothOscillator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\SineOscillator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\TriangleOscillator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\jni-bridge.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\util\\WaveFileWriter.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\hwaudioeg\\CMakeLists.txt",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\AudioStreamGateway.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\FormatConverterBox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\FullDuplexAnalyzer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\FullDuplexEcho.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\FullDuplexStream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\InputStreamCallbackAnalyzer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\InterpolatingDelayLine.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\MultiChannelRecording.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\NativeAudioContext.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\OboeStreamCallbackProxy.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\OboeTesterStreamCallback.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\PlayRecordingCallback.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\SawPingGenerator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\BaseSineAnalyzer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\DataPathAnalyzer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\GlitchAnalyzer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\InfiniteRecording.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\LatencyAnalyzer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\ManchesterEncoder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\PeakDetector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\PseudoRandom.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\RandomPulseGenerator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\analyzer\\RoundedManchesterEncoder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\android_debug.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\ExponentialShape.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\ImpulseOscillator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\LinearShape.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\OscillatorBase.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\SawtoothOscillator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\SineOscillator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\flowunits\\TriangleOscillator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\unused\\unused.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\util\\WaveFileWriter.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\liboboetester.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3618018422": {
+      "cCompilerExecutable": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

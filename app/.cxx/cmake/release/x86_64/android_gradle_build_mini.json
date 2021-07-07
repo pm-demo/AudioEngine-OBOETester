@@ -1,0 +1,36 @@
+{
+  "buildFiles": [
+    "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\src\\main\\cpp\\hwaudioeg\\CMakeLists.txt",
+    "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\CMakeLists.txt",
+    "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\release\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\release\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "oboetester-Release-x86_64": {
+      "artifactName": "oboetester",
+      "buildCommand": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\release\\x86_64\" oboetester",
+      "abi": "x86_64",
+      "output": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\liboboetester.so",
+      "runtimeFiles": []
+    },
+    "oboe-Release-x86_64": {
+      "artifactName": "oboe",
+      "buildCommand": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\release\\x86_64\" oboe",
+      "abi": "x86_64",
+      "output": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\release\\x86_64\\oboe-bin\\liboboe.a",
+      "runtimeFiles": []
+    },
+    "native-audio-jni-Release-x86_64": {
+      "artifactName": "native-audio-jni",
+      "buildCommand": "C:\\Users\\purni\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\.cxx\\cmake\\release\\x86_64\" native-audio-jni",
+      "abi": "x86_64",
+      "output": "C:\\Users\\purni\\Desktop\\Documents\\AndroidRelated\\FutureweiRelated\\New-AudioEngine-OBOE\\oboe\\apps\\OboeTester\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libnative-audio-jni.so",
+      "runtimeFiles": []
+    }
+  }
+}

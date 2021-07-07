@@ -1,0 +1,8 @@
+Executable : C:\Users\purni\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\purni\Desktop\Documents\AndroidRelated\FutureweiRelated\New-AudioEngine-OBOE\oboe\apps\OboeTester\app\.cxx\cmake\debug\arm64-v8a
+native-audio-jni
+oboetester
+jvmArgs : 
+

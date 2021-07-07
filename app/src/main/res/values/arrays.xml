@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recordMode">
+        <item>@string/recordMode_normal</item>
+        <item>@string/recordMode_opensles</item>
+        <item>@string/recordMode_audiorecord</item>
+    </string-array>
+</resources>
